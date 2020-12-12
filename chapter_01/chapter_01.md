@@ -28,3 +28,56 @@ print(greeting)
 
 # Answer: ______
 ```
+
+* Given you call `main`, what does the `message` variable output when you `print`
+```python
+def greeting(x):
+    return f'Hello, {x}'
+
+def main():
+    first_name = 'Grayson'
+    
+    message = greeting(first_name)
+    
+    print(message)
+
+main()
+
+# Answer: ______
+```
+
+* This is similar, but take a look at the params... Given you call `main`, what does the `message` variable output when you `print`
+```python
+def greeting(x, y):
+    return f'Hello, {x} {y}'
+
+def main():
+    first_name = 'Grayson'
+    last_name = 'Hardin'
+
+    message = greeting(first_name, last_name)
+    
+    print(message)
+
+main()
+
+# Answer: ______
+```
+
+* One more parameter assignment. Given you call `main`, what does the `message` variable output when you `print`
+```python
+def greeting(x, y):
+    return f'Hello, {x} {y}'
+
+def main():
+    first_name = 'Grayson'
+    last_name = 'Hardin'
+
+    message = greeting(last_name, first_name)
+    
+    print(message)
+
+main()
+
+# Answer: ______
+```
